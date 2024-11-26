@@ -1,0 +1,28 @@
+@media only screen and (max-width:590px){
+    .main{ 
+        flex-direction: column;
+        justify-content: center;
+    }
+    article{
+        flex-basis: 99%;
+    }
+}
+@media only screen and (min-width:591px) and (max-width:768px){
+    .main{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article{
+        flex-basis: 48%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .main{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article{
+        flex-basis: 48%;
+    }
+}
+
